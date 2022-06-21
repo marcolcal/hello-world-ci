@@ -12,9 +12,9 @@ jobs:
       - image: circleci/node:13.8.0
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
-        enviroment:
-          MY_ENV_NAME_1: sam-adams
-          MY_ENV_NAME_2: Liquid-nails
+      enviroment:
+        MY_ENV_NAME_1: sam-adams
+        MY_ENV_NAME_2: Liquid-nails
     steps:
       - checkout
       - run:
